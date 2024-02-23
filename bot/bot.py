@@ -12,7 +12,7 @@ from datetime import datetime
 
 storage = MemoryStorage()
 
-bot = Bot('6961138592:AAF4tOhK8FgN6J45XIGgWAcC1THXPXQZBDg')
+bot = Bot('Токен твоего бота')
 dp = Dispatcher(bot=bot, storage=storage)
 logging_middleware = LoggingMiddleware()
 dp.middleware.setup(logging_middleware)
